@@ -1,0 +1,57 @@
+body{
+    color:black;
+    margin: 0 auto;
+}
+#container{
+    width: 18%;
+    background-color: rgb(97, 53, 62);
+    float: left;
+    height: 100vh;
+}
+#outputt{
+    width: 82%;
+    background-color: rgb(83, 53, 62);
+    float: right;
+    height: 100vh;
+}
+#h11{
+    text-align: center;
+}
+#Creator{
+    position: relative;
+    left: 20%;
+}
+
+button {
+    border: none;
+    color: rgb(36, 36, 36);
+    background-color: rgba(233, 233, 233, 0.336);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.247);
+    border: none;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    position: relative;
+    left: 10%;
+    margin-top: 2%;
+    
+}
+button:hover{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.247);
+        color:white;
+}
+
+.list {
+    width: 60%;
+    position: relative;
+    left: 10%;
+    padding: 10px;
+    font-size: 40px;
+}
+
+input, textarea, label {
+    display: block;
+}
